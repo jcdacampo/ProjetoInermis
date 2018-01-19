@@ -4,129 +4,353 @@
 		<title>Inermis Studios</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- CSS principal -->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/animate.css" />
+		<!-- CSS do sistema de Grid -->
+		<link rel="stylesheet" href="assets/css/grid.css" />
+		<!-- CSS jQuery -->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  		<!-- CSS scroll aos -->
 		<link rel="stylesheet" href="assets/plugins/aos-master/dist/aos.css" />
-
-		<script type="text/javascript" src="assets/plugins/aos-master/dist/aos.js"></script>
-		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		
+		<!-- JS do typer -->
 		<script type="text/javascript" src="assets/js/typeit.js"></script>
+		<!-- JS principal -->
 		<script type="text/javascript" src="assets/js/main.js"></script>
+		<!-- JS do scroll aos -->
+  		<script src="assets/plugins/aos-master/dist/aos.js"></script>
+  		<!-- jQuery -->
+  		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<!-- jQuery -->
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<script src="js/modernizr.custom.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="assets/plugins/CreativeButtons/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="assets/plugins/CreativeButtons/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="assets/plugins/CreativeButtons/js/modernizr.custom.js" />
+
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	</head>
 	<body>
 
-        <!-- Header -->
-        <div id="header">
-            <img class="animated bounceInDown" src="images/logo.png">
-            <h1 id="slogan"></h1>
-        </div>
-
-		<!-- Main -->
-		<div id="main">
-			<header class="major container 75%">
-				<h2 data-aos="fade-right" data-aos-duration="800" >Desenvolvedora de jogos mobile</h2>
-				<h2 data-aos="fade-right" data-aos-duration="800">(Android / iOS) e web.</h2>
-				<h2 data-aos="fade-left" data-aos-duration="800">Desde 2015 no mercado.</h2>
-				<h2 data-aos="zoom-in" data-aos-duration="800">Especialistas em <span>ADVERGAMES</span>.</h2>
-			</header>
-
-			<div class="box alt container">
-				<section class="feature left">
-					<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Alguma coisa</h3>
-						<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-					</div>
-				</section>
-				<section class="feature right">
-					<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Algo a mais</h3>
-						<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-					</div>
-				</section>
-				<section class="feature left">
-					<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Última coisa</h3>
-						<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-					</div>
-				</section>
+		<!-- Sidebar -->
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#intro">Bem vindo</a></li>
+						<li><a href="#o-que-fazemos">O que fazemos</a></li>
+                        <li><a href="#advergames">Advergames</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+						<li><a href="#premiacoes">Premiações</a></li>
+						<li><a href="#quem-somos">Quem somos</a></li>
+						<li><a href="#contato">Entre em contato</a></li>
+					</ul>
+				</nav>
 			</div>
-			<footer class="major container 75%">
-				<h3>Get shady with science</h3>
-				<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-				<ul class="actions">
-					<li><a href="#" class="button">Join our crew</a></li>
-				</ul>
-			</footer>
-		</div>
+		</section>
 
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-		<div class=" container projetos">
-			<h1>PROJETOS</h1>
-		</div>
+			<!-- Intro -->
+			<section id="intro" class="wrapper fullscreen fade-up">
+				<div class="inner">
+					<img class="logo" src="images/logo.png">
+					
+					<h1 id="slogan"></h1>
 
-		<div class="container premiacoes">
-			<h1>PREMIAÇÕES</h1>
-		</div>
+					<a href="#o-que-fazemos">
+						<button class="btn btn-2 btn-2i">Start</button>
+					</a>
+				</div>
+			</section>
 
-		<div class="container quem-somos">
-			<h1>QUEM SOMOS</h1>
+			<!-- O que fazemos -->
+			<section id="o-que-fazemos" class="wrapper style3 fade-up">
+				<div class="inner">
+					<div class="games" data-aos="fade-right" data-aos-duration="800">
+						<h1>Games</h1>
+						<p>Desenvolvemos games para plataforma mobile (Android e iOS) e web desde 2015. </p>
+					</div>
+
+					<div class="advergames" data-aos="fade-left" data-aos-duration="800">
+						<h1>Advergames</h1>
+						<p>Você precisa divulgar sua marca, produtos ou serviços ou se aproximar de seus clientes? Vamos ajudá-lo a ter um advergame incrível que impulsionará sua empresa.</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Advergames -->
+			<section id="advergames" class="wrapper style2 spotlights">
+				<section class="segundo">
+					<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+					<div class="content segundo">
+						<div class="inner">
+							<h1>O que é um Advergame</h1>
+							<p>Jogo no qual é promovido um determinado item, seja ele um produto, evento, ideia ou marca. A ideia é torná-lo atrativo aos olhos do público e buscar uma perspectiva diferenciada e baseada no lado lúdico e dinâmico do produto.</p>
+						</div>
+					</div>
+				</section>
+				<section class="primeiro">
+					<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+					<div class="content primeiro">
+						<div class="inner">
+							<h1>Impulsione sua marca</h1>
+							<p>A inserção de ideias, marcas e produtos em jogos eletrônicos tem se tornado uma excelente e produtiva estratégia de marketing.</p>
+						</div>
+					</div>
+				</section>
+				<section class="terceiro">
+					<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+					<div class="content terceiro">
+						<div class="inner">
+							<h1>Cative seus clientes</h1>
+							<p>Advergame é uma mídia de longa duração, consumida inúmeras vezes pelo usuário, muitas vezes até de formas diferenciadas devido aos roteiros não lineares e às mecânicas dos jogos. Isso faz com que o consumidor fique exposto muito mais tempo à propaganda, do que ficaria em uma mídia tradicional.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Projetos -->
+			<section id="projetos" class="wrapper style1 fade-up">					
+				<h1 data-aos="fade-down">Nossos Projetos</h1>
+
+				<div class="dengame">
+					<div class="box-alt">
+						<div class="row uniform">
+							<div class="6u imagem" data-aos="zoom-in">
+								<img class="dengame-imagem" src="images/gifgame.gif">
+							</div>
+							
+							<div class="6u descricao" data-aos="zoom-in">
+								<h1>Dengame</h1>
+								<p>Dengame é um jogo que ensina sobre a importância da prevenção dos focos do mosquito 
+								Aedes Aegypti. Com uma arte diferenciada do gênero de jogos educativos e com uma mecânica 
+								simples, buscamos despertar a preocupação das pessoas em descobrir possíveis focos em sua comunidade.  
+								O jogo também mostra a importância de prevenir a proliferação do mosquito durante o ano todo e não 
+								somente no verão.</p>
+								<p class="plataforma">Plataforma: <i class="fa fa-mobile" aria-hidden="true"></i></p>
+								<a href="https://play.google.com/store/apps/details?id=co.inermis.dengame" target="_blank">
+									<img class="google-play" width="25%" src="images/google-play-logo.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tchomblers">
+					<div class="box-alt">
+						<div class="row uniform">
+							<div class="6u imagem" data-aos="zoom-in">
+								<div id="slider">
+									<a class="control_next">></a>
+									<a class="control_prev"><</a>
+									<ul >
+										<li><img class="tchomblers-imagem" src="images/Gameplay.png"></li>
+										<li><img class="tchomblers-imagem" src="images/Tranziao.png"></li>
+										<li><img class="tchomblers-imagem" src="images/Errou.png"></li>
+										<li><img class="tchomblers-imagem" src="images/Menu_1.png"></li>
+									</ul>  
+								</div>
+							</div>
+							
+							<div class="6u descricao" data-aos="zoom-in">
+								<h1>Tchomblers VS Pimblers</h1>
+								<p>Tchomblers VS Pimblers é um jogo de reflexo no qual você precisa ser o primeiro 
+								a apertar o botão para arremessar a torta no inimigo. Após cinco rodadas, o jogador 
+								que tiver mais pontos ganha.O jogo foi criado para ser lavado em feiras, oficinas, eventos 
+								para divertir o público, em parceria com estudantes de Design e Jogos 
+								Digitais da Unochapeco.</p>
+								<p class="plataforma">Plataforma: <i class="fa fa-desktop" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</section>
+
+			<!-- Premiações -->
+			<section id="premiacoes" class="wrapper style1 fade-up">
+				<h1>Premiações</h1>
+				<div class="inovacao">
+					<div class="message">
+						<h2>1° LUGAR - Maratona da Inovação UNOCHAPECÓ</h2>
+					</div>
+				</div>
+				
+				<p class="materia">
+					<span class="image left"><img src="images/premiacao2.png" alt="" /></span>
+					<span class="titulo">Confira um trecho da matéria no site da instituição:</span><br>
+					"Jogos digitais não servem apenas para entretenimento. Mais do que isso, 
+					eles podem ser grandes aliados das empresas que buscam criar um vínculo maior 
+					com seu público-alvo. Essa é a proposta vencedora da 5ª Maratona da Inovação da Unochapecó, 
+					que premiou os três primeiros colocados na noite desta terça-feira (21/11). O projeto vencedor, 
+					intitulado Inermis Studios, foi desenvolvido pelos acadêmicos Ingrid Thays Santin 
+					(Publicidade e Propaganda), Jonas Francisco Milan (Jogos Digitais) e 
+					Eduardo Augusto Bernieri Koller (Jogos Digitais), que agora terão o apoio 
+					da Incubadora Tecnológica (Inctech) para modelagem do negócio."
+					<br>
+					<a href="https://www.unochapeco.edu.br/noticias/conheca-os-vencedores-da-5a-maratona-da-inovacao-da-unochapeco#next" target="_blank">
+						<b>Link da notícia completa</b>
+					</a>
+				</p>
+			</section>
+
+			<!-- Quem Somos -->
+			<section id="quem-somos" class="wrapper style1 fade-up">
+				<h1>Quem Somos</h1>
+
+				<div class="box alt">
+					<div class="row uniform">
+						<div class="3u">
+							<div class="container">
+								<div class="case first">
+									<span class="icon-cont"><div class="avatar"><img src="images/jonas.jpg"></div></span>
+									
+									<h3>Jonas</h3>
+									
+									<ul class="hidden">
+									<li><span>Programador/UX</span></li>
+									<li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+									</ul>
+										
+									<a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="3u">
+							<div class="container">
+								<div class="case second">
+									<span class="icon-cont"><div class="avatar"><img src="images/ingrid.jpg"></div></span>
+									
+									<h3>Ingrid</h3>
+									
+									<ul class="hidden">
+									<li>Marketing</li>
+									<li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+									</ul>
+										
+									<a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="3u">
+							<div class="container">
+								<div class="case third">
+									<span class="icon-cont"><div class="avatar"><img src="images/du.jpg"></div></span>
+									
+									<h3>Eduardo</h3>
+									
+									<ul class="hidden">
+									<li>Modelador 3D</li>
+									<li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+									</ul>
+										
+									<a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="3u$">
+							<div class="container">
+								<div class="case third">
+									<span class="icon-cont"><div class="avatar"><img src="images/vini.jpg"></div></span>
+									
+									<h3>Vinicius</h3>
+									
+									<ul class="hidden">
+									<li>Programador</li>
+									<li><a><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+									<li><a><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+									</ul>
+										
+									<a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contato -->
+			<section id="contato" class="wrapper style1 fade-up">
+				<div class="inner">
+					<h2>Entre em contato</h2>
+					
+					<div class="split style1">
+						<section>
+							<form method="POST" action="">
+								<div class="field half first">
+									<label for="name">Nome</label>
+									<input type="text" name="name" id="name" required />
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" required />
+								</div>
+								<div class="field">
+									<label for="message">Mensagem</label>
+									<textarea name="message" id="message" rows="5" required></textarea>
+								</div>
+								<ul class="actions">
+									<li><button type="submit" class="button submit">Enviar</button></li>
+								</ul>
+							</form>
+						</section>
+						<section>
+							<ul class="contact">
+								<li>
+									<h3>Endereço</h3>
+									<span>Avenida Senador Attílio Fontana, 591-E.<br />
+									Efapi, Chapecó - SC, 89809-000.<br/></span>
+
+									 
+								</li>
+								<li>
+									<h3>Email</h3>
+									<span>inermis@inermis.com</span>
+								</li>
+								<li>
+									<h3>Telefone</h3>
+									<span>(00) 0000-0000</span>
+								</li>
+								<li>
+									<h3>Social</h3>
+									<ul class="icons">
+										<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</section>
+
 		</div>
 
 		<!-- Footer -->
-		<div id="footer">
-			<div class="container 75%">
-
-				<header class="major last">
-					<h2>Questions or comments?</h2>
-				</header>
-
-				<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-				orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-
-				<form method="post" action="#">
-					<div class="row">
-						<div class="6u 12u(mobilep)">
-							<input type="text" name="name" placeholder="Name" />
-						</div>
-						<div class="6u 12u(mobilep)">
-							<input type="email" name="email" placeholder="Email" />
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-							<textarea name="message" placeholder="Message" rows="6"></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</div>
-					</div>
-				</form>
-
-				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-				</ul>
-
-				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-
-			</div>
-		</div>
-
+		<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Inermis. Todos os direitos reservados.</li><li>Made with <i class="fa fa-heart" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+			</footer>
 		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 	</body>
 </html>
